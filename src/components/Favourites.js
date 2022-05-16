@@ -123,7 +123,7 @@ useEffect(()=>{
       <th scope="row" className='py-4'><img src={`https://image.tmdb.org/t/p/w500/${movie.backdrop_path}`} height='100px' width='150px' className='p-1'/>{movie.title}</th>
       <td className='px-5 py-5'>{movie.vote_average}</td>
       <td className='px-4 py-5'>{movie.popularity}</td>
-      <td className='py-5'><span className='rounded-pill bg-info p-1 text-white'>{genreids[movie.genre_ids[0]]}</span></td>
+      <td className='py-5'><span className='rounded-pill bg-info p-1 text-white gen'>{genreids[movie.genre_ids[0]]}</span></td>
       <td className='py-4'>
         <button type='submit' className='bg-danger text-white rounded-pill my-3 p-1' onClick={()=> del(movie)}>Delete</button>
       </td>
