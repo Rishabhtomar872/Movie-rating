@@ -12,7 +12,7 @@ const Banner = () => {
    <div className="card text-white">
   <div><img src={`https://image.tmdb.org/t/p/w500/${movies.backdrop_path}`} className="card-img" alt="background" height="450px" /></div>
   <div className="card-img-overlay d-flex flex-column-reverse">
-    <h5 className="card-title text-center fw-bold">{movies.title}</h5>
+    <h5 className="card-title text-center fw-bold ban">{movies.title}</h5>
   </div>
 </div> 
 </section>
