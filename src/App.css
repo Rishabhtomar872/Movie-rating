@@ -1,6 +1,7 @@
 *{
   margin: 0px;
   padding: 0px;
+  max-width: 100%;
 }
 body{
   margin: 0px;
@@ -15,10 +16,22 @@ body{
 .icon{
   margin-inline-start: 10.5rem;
   position: absolute;
-}
+} 
 .fon{
   font-size:xx-small;
 }
 .oval{
   margin-left: 25rem;
+}
+.gen{
+  background-color: rgb(50, 248, 28);
+}
+@media (max-width: 576px) {
+  .icon{
+    margin-inline-start: 20rem;
+    position: absolute;
+  }
+  .ban{
+    font-size: smaller;
+  }
 }
